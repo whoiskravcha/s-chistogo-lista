@@ -15,7 +15,7 @@ ol {
 body {
 	margin: 0;
 	background-color: #2f2f2f;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   line-height: 22px;
 }
@@ -72,7 +72,7 @@ body {
 .cover__title {
 	display: flex;
 	padding: 7px 24px 30px 20px;
-	font-family: 'EB Garamond';
+	font-family: 'EB Garamond', serif;
 	font-weight: 400;
 	font-size: 72px;
 	flex-direction: column;
@@ -107,7 +107,7 @@ body {
 }
 
 .intro__title {
-	font-family: 'Inter';
+	font-family: 'Inter', sans-serif;
 	font-weight: 400;
 	font-size: 16px;
 	color: #cccccc;
@@ -115,7 +115,7 @@ body {
 }
 
 .intro__date {
-	font-family: 'Inter';
+	font-family: 'Inter', sans-serif;
 	font-weight: 400;
 	font-size: 16px;
 	color: #cccccc;
@@ -124,7 +124,7 @@ body {
 
 .intro__main-text {
 	display: flex;
-	font-family: 'Inter';
+	font-family: 'Inter', sans-serif;
 	font-weight: 400;
 	font-size: 16px;
 	color: #f5f5f5;
@@ -141,7 +141,7 @@ body {
 .content-section__subtitle {
 	display: flex;
 	padding: 0;
-	font-family: 'EB Garamond';
+	font-family: 'EB Garamond', serif;
 	font-weight: 500;
 	font-size: 28px;
 	flex-direction: column;
@@ -155,7 +155,7 @@ body {
 
 .content-section__introduction {
 	display: flex;
-	font-family: 'Inter';
+	font-family: 'Inter', sans-serif;
 	font-weight: 400;
 	font-size: 20px;
 	color: #131313;
@@ -175,14 +175,14 @@ body {
 }
 
 .content-section__list-accent {
-	font-family: "Inter";
+	font-family: "Inter", sans-serif;
 	font-weight: 700;
 	font-size: 16px;
 	color: #131313;
 }
 
 .content-section__list-item {
-	font-family: "Inter";
+	font-family: "Inter", sans-serif;
 	font-weight: 400;
 	font-size: 16px;
 	color: #131313;
@@ -195,7 +195,7 @@ body {
 
 .how-to-content-section__subtitle {
 	display: flex;
-	font-family: 'EB Garamond';
+	font-family: 'EB Garamond', serif;
 	font-weight: 500;
 	font-size: 28px;
 	flex-direction: column;
@@ -205,7 +205,7 @@ body {
 
 .how-to-content-section__introduction {
 	display: flex;
-	font-family: 'Inter';
+	font-family: 'Inter', sans-serif;
 	font-weight: 400;
 	font-size: 20px;
 	color: #f5f5f5;
@@ -241,10 +241,11 @@ body {
 	height: 100px;
 	width: 100px;
   margin-bottom: 8px;
+  border-radius: 208px;
 }
 
 .card__author-name {
-	font-family: 'Inter';
+	font-family: 'Inter', sans-serif;
 	font-weight: 700;
 	font-size: 16px;
 	line-height: 1.35;
@@ -252,7 +253,7 @@ body {
 }
 
 .card__title {
-	font-family: 'EB Garamond';
+	font-family: 'EB Garamond', serif;
 	font-weight: 500;
 	font-size: 22px;
 	line-height: 1.35;
@@ -260,7 +261,7 @@ body {
 }
 
 .card__text {
-	font-family: 'Inter';
+	font-family: 'Inter', sans-serif;
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 22px;
@@ -284,12 +285,12 @@ body {
 
 .content-section_theme_dark {
 	background-color: #131313;
-	color: #ffffff;
+	color: #f5f5f5;
 }
 
 .content-section_theme_bright {
 	background-color: #fee42a;
-	color: #000000;
+	color: #131313;
 }
 
 .footer {
@@ -300,7 +301,7 @@ body {
 }
 
 .footer__copy {
-	font-family: 'Inter';
+	font-family: 'Inter', sans-serif;
 	font-weight: 400;
 	font-size: 16px;
 }
@@ -310,8 +311,13 @@ body {
 	flex-direction: row;
 	gap: 16px;
 	list-style: none;
-	font-family: 'Inter';
+	font-family: 'Inter', sans-serif;
 	font-weight: 400;
 	font-size: 14px;
 	line-height: 1.25;
+}
+
+.link__item {
+  text-decoration: none;
+  color: #f5f5f5;
 }
